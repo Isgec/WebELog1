@@ -156,7 +156,7 @@
         pcnt = pcnt + 1;
         var nam = 'wTask' + pcnt;
         //var url = self.location.href.replace('App_Edit/EF_','App_Print/RP_');
-        var url = 'http://192.9.200.146/IRReport/IR_Report.aspx?CmpId=200&env=P'
+        var url = 'http://perk01/IRReport/IR_Report.aspx?CmpId=200&env=P'
         url = url + '&IRNo=' + o.alt;
         window.open(url, nam, 'left=20,top=20,width=600,height=400,toolbar=1,resizable=1,scrollbars=1');
         return false;
